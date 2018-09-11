@@ -1,12 +1,8 @@
 <!DOCTYPE HTML>
-<!--
-	Broadcast by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
 <html>
 	<head>
-		<title>Broadcast by TEMPLATED</title>
+		<title>MuiscNator</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -15,7 +11,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="#">Broadcast <span>by TEMPLATED</span></a></h1>
+				<h1><a href="#">MusicNator <span>collab with musicions</span></a></h1>
 				<a href="#menu">Menu</a>
 			</header>
 
@@ -37,7 +33,7 @@
 				<section id="banner" data-video="images/banner">
 					<div class="inner">
 						<header>
-							<h1>This is Broadcast</h1>
+							<h1>MusicNator</h1>
 							<p>Morbi eu purus eget urna interdum dignissim sed consectetur augue<br />
 							vivamus vitae libero in nulla iaculis eleifend non sit amet nulla.</p>
 						</header>
