@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //connection with database
 
 
@@ -5,6 +6,10 @@
 
 $host = '127.0.0.1';
 $db   = 'test';
+=======
+$host = '127.0.0.1';
+$db   = 'musicnator';
+>>>>>>> master
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
@@ -20,5 +25,8 @@ try {
 } catch (\PDOException $e) {
      throw new \PDOException($e->getMessage(), (int)$e->getCode());
 }
+<<<<<<< HEAD
 
  ?>
+=======
+>>>>>>> master
