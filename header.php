@@ -11,7 +11,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="#">MusicNator <span>collab with musicions</span></a></h1>
+				<h1><a href="#">MusicNator</a></h1>
 				<a href="#menu">Menu</a>
 			</header>
 
@@ -19,8 +19,8 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="generic.html">Generic</a></li>
-					<li><a href="elements.html">Elements</a></li>
+					<li><a href="generic.html">Login</a></li>
+					<li><a href="elements.html">Register</a></li>
 				</ul>
 			</nav>
 
@@ -34,10 +34,9 @@
 					<div class="inner">
 						<header>
 							<h1>MusicNator</h1>
-							<p>Morbi eu purus eget urna interdum dignissim sed consectetur augue<br />
-							vivamus vitae libero in nulla iaculis eleifend non sit amet nulla.</p>
+							<p>We are here to help you connect with world of music production</p>
 						</header>
-						<a href="#main" class="button big alt scrolly">Dignissim</a>
+						<a href="#main" class="button big alt scrolly">Collab with world!</a>
 					</div>
 
 				</section>

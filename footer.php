@@ -3,7 +3,7 @@
     <div class="inner">
       <div class="flex flex-3">
         <div class="col">
-          <h3>Vestibullum</h3>
+          <h3>Info</h3>
           <ul class="alt">
             <li><a href="#">Nascetur nunc varius commodo.</a></li>
             <li><a href="#">Vis id faucibus montes tempor</a></li>
@@ -12,7 +12,7 @@
           </ul>
         </div>
         <div class="col">
-          <h3>Lobortis</h3>
+          <h3>Projects</h3>
           <ul class="alt">
             <li><a href="#">Nascetur nunc varius commodo.</a></li>
             <li><a href="#">Vis id faucibus montes tempor</a></li>
@@ -21,7 +21,7 @@
           </ul>
         </div>
         <div class="col">
-          <h3>Accumsan</h3>
+          <h3>News</h3>
           <ul class="alt">
             <li><a href="#">Nascetur nunc varius commodo.</a></li>
             <li><a href="#">Vis id faucibus montes tempor</a></li>
@@ -38,7 +38,6 @@
         <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
         <li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
       </ul>
-      &copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Coverr</a>. Video: <a href="https://coverr.co">Coverr</a>.
     </div>
   </footer>
 
