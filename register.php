@@ -8,23 +8,41 @@
     <?php include 'header.php'; ?>
 
 
-      <img style="width:100%;" src="images/pic20.jpg" alt="pic20">
+      <img draggable="false" style="width:100%;" src="images/pic20.jpg" alt="pic20">
 
 
       <div class="main_box">
       <h1 style="font-size:40px;">Register</h1>
+      <form class="" action="index.html" method="post">
+      <p>Name:<input type="text" name="" placeholder="Name"></p>
+      <p>Email:<input type="text" name="" placeholder="Email"></p>
+      <p>Password<input type="text" name="" placeholder="Password"></p>
+      <p>Confirm Password<input type="text" name="" placeholder="Confirm Password"></p>
+
+      </form>
+
 
 
       <!-- style za main box -->
       <style media="screen">
-      
+
         .main_box{
           position: absolute;
           top: 30%;
-          left: 30%;
-          border:  2px solid yellow;
-          width: 30%;
-          height: 30%;
+          left: 23%;
+          width: 50%;
+          height: 80%;
+          background-color: #000;
+          padding: 20px;
+        }
+        .main_box p{
+          color: white;
+        }
+        .main_box input{
+          width: 100%;
+        }
+        .main_box h1{
+          text-align: center;
         }
 
       </style>
