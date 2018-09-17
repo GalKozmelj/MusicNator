@@ -14,7 +14,7 @@
         <div class="col">
           <h3>top 10</h3>
           <ul class="alt">
-            <li><a href="#">Grug - Studio deadly Productions</a></li>
+            <li><a href="#">Grug Kulovec - Studio deadly Productions</a></li>
             <li><a href="#">Max - Fetus Sounds</a></li>
             <li><a href="#">Dying Fetus - in the Tranches</a></li>
             <li><a href="#">Lamb of God - Redneck</a></li>

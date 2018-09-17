@@ -5,10 +5,11 @@
     <title>MusicNator</title>
   </head>
   <body>
+    <!--HEADER -->
     <?php include 'header.php'; ?>
-    <div class="main">
-      <?php include 'index_video.php'; ?>
-    </div>
+    <!--VIDEO -->
+    <?php include 'index_video.php'; ?>
+    <!--FOOTER -->
     <?php include 'footer.php'; ?>
   </body>
 </html>

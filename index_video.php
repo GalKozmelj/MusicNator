@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+
 <section id="banner" data-video="images/banner">
   <div class="inner">
     <header>
@@ -8,3 +17,6 @@
   </div>
 
 </section>
+
+</body>
+</html>
