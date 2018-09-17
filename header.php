@@ -18,7 +18,7 @@
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="index.php">Home</a></li>
 					<li><a href="login.php">Login</a></li>
 					<li><a href="register.php">Register</a></li>
 				</ul>

@@ -14,10 +14,10 @@
       <div class="main_box">
       <h1 style="font-size:40px;">Register</h1>
       <form class="" action="index.html" method="post">
-      <p>Name:<input type="text" name="" placeholder="Name"></p>
-      <p>Email:<input type="text" name="" placeholder="Email"></p>
-      <p>Password<input type="text" name="" placeholder="Password"></p>
-      <p>Confirm Password<input type="text" name="" placeholder="Confirm Password"></p>
+      <p>Name:<input type="text" name="name" placeholder="Name"></p>
+      <p>Email:<input type="text" name="email" placeholder="Email"></p>
+      <p>Password<input type="text" name="password" placeholder="Password"></p>
+      <p>Confirm Password<input type="text" name="confirm_password" placeholder="Confirm Password"></p>
 
       </form>
 
@@ -31,7 +31,7 @@
           top: 30%;
           left: 23%;
           width: 50%;
-          height: 80%;
+          height: 65%;
           background-color: #000;
           padding: 20px;
         }
