@@ -19,8 +19,8 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="generic.html">Login</a></li>
-					<li><a href="elements.html">Register</a></li>
+					<li><a href="login.php">Login</a></li>
+					<li><a href="register.php">Register</a></li>
 				</ul>
 			</nav>
 
@@ -34,7 +34,7 @@
 					<div class="inner">
 						<header>
 							<h1>MusicNator</h1>
-							<p>We are here to help you connect with world of music production</p>
+							<p>music production!</p>
 						</header>
 						<a href="#main" class="button big alt scrolly">Collab with world!</a>
 					</div>
