@@ -7,7 +7,8 @@
   <body>
     <?php include 'header.php'; ?>
     <div class="main">
-    <?php include 'footer.php'; ?>
+      <?php include 'index_video.php'; ?>
     </div>
+    <?php include 'footer.php'; ?>
   </body>
 </html>

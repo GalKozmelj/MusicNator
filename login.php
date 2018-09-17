@@ -6,7 +6,9 @@
   </head>
   <body>
     <?php include 'header.php'; ?>
-    <div class="main">
+
+
+
     <?php include 'footer.php'; ?>
     </div>
   </body>
