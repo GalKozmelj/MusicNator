@@ -7,21 +7,27 @@
   <body>
     <?php include 'header.php'; ?>
 
-    <div class="main_box">
+
       <img style="width:100%;" src="images/pic20.jpg" alt="pic20">
+
+
+      <div class="main_box">
       <h1 style="font-size:40px;">Register</h1>
 
 
-
-
-
-      <!-- STIL ZA main box -->
+      <!-- style za main box -->
       <style media="screen">
       
+        .main_box{
+          position: absolute;
+          top: 30%;
+          left: 30%;
+          border:  2px solid yellow;
+          width: 30%;
+          height: 30%;
+        }
+
       </style>
-
-
-
 
 
 

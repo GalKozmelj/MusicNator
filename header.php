@@ -11,7 +11,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="#">MusicNator</a></h1>
+				<h1><a href="index.php">MusicNator</a></h1>
 				<a href="#menu">Menu</a>
 			</header>
 
