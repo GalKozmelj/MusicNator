@@ -28,12 +28,14 @@
 
         .main_box{
           position: absolute;
-          top: 30%;
+          top: 25%;
           left: 23%;
           width: 50%;
           height: 65%;
           background-color: #000;
           padding: 20px;
+          opacity: 0.7;
+
         }
         .main_box p{
           color: white;

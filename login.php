@@ -16,6 +16,8 @@
       <form class="" action="index.html" method="post">
       <p>Email:<input type="text" name="" placeholder="Email"></p>
       <p>Password<input type="text" name="" placeholder="Password"></p>
+      <p style="color:gray;">*We will never ask you for your password!</p>
+      <input type="submit" name="submit_btn" value="Submit">
       </form>
 
 
@@ -25,11 +27,12 @@
 
         .main_box{
           position: absolute;
-          top: 30%;
+          top: 25%;
           left: 23%;
           width: 50%;
-          height: 50%;
-          background-color: #000;
+          height: 60%;
+          background-color: black;
+          opacity: 0.7;
           padding: 20px;
         }
         .main_box p{
