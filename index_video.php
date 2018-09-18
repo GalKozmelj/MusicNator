@@ -13,7 +13,7 @@
       <h1>MusicNator</h1>
       <p>music production!</p>
     </header>
-    <a href="wall.php" class="button big alt scrolly">Collab with musicians!</a>
+    <a href="login.php" class="button big alt scrolly">Collab with musicians!</a>
   </div>
 
 </section>

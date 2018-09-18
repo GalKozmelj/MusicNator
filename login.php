@@ -8,7 +8,7 @@
     <?php include 'header.php'; ?>
 
 
-      <img draggable="false" style="width:100%;" src="images/pic20.jpg" alt="pic20">
+      <img draggable="false" style="width:100%;" src="images/wp5.jpg" alt="pic20">
 
 
       <div class="main_box">
@@ -17,7 +17,7 @@
       <p>Email:<input type="text" name="" placeholder="Email"></p>
       <p>Password<input type="text" name="" placeholder="Password"></p>
       <p style="color:gray;">*We will never ask you for your password!</p>
-      <input type="submit" name="submit_btn" value="Submit">
+      <input type="submit" name="submit_btn" value="Connect!">
       </form>
 
 
@@ -27,7 +27,7 @@
 
         .main_box{
           position: absolute;
-          top: 25%;
+          top: 23%;
           left: 23%;
           width: 50%;
           height: 60%;

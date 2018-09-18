@@ -2211,6 +2211,9 @@
 	input[type="radio"] {
 		z-index: -1;
 	}
+	input[type="submit"] {
+		width: 100%;
+	}
 
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
