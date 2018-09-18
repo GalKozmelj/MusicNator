@@ -18,8 +18,9 @@
       <p>Email:<input type="text" name="email" placeholder="Email"></p>
       <p>Password:<input type="text" name="password" placeholder="Password"></p>
       <p>Confirm Password:<input type="text" name="confirm_password" placeholder="Confirm Password"></p>
-      <p>Studio<input type="radio" name="studio" value="">musician <input type="radio" name="musician" value=""> </p>
+      Studio<input type="radio" name="studio" value="">musician <input type="radio" name="musician" value="">
       </form>
+
 
       <?php
       if(isset($_POST['username'])){
@@ -38,7 +39,7 @@
           top: 25%;
           left: 23%;
           width: 50%;
-          height: 65%;
+          height: 80%;
           background-color: #000;
           padding: 20px;
           opacity: 0.7;
@@ -47,8 +48,12 @@
         .main_box p{
           color: white;
         }
-        .main_box input{
+        .main_box input[type = "text"]{
           width: 100%;
+        }
+        .main_box input[type = "radio"]{
+          margin-right: 50px;
+          position: relative;
         }
         .main_box h1{
           text-align: center;
