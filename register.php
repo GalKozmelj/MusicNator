@@ -8,19 +8,22 @@
     <?php include 'header.php'; ?>
 
 
-      <img draggable="false" style="width:100%;" src="images/wp2.jpg" alt="pic20">
+      <img draggable="false" style="width:100%;" src="images/wp2.jpg" alt="wp2">
 
 
       <div class="main_box">
       <h1 style="font-size:40px;">Register</h1>
       <form class="" action="#" method="post">
       <p>Username:<input type="text" name="username" placeholder="Name" required></p>
-      <p>Email:<input type="text" name="email" placeholder="Email" required></p>
-      <p>Password:<input type="text" name="password" placeholder="Password" required></p>
-      <p>Confirm Password:<input type="text" name="confirm_password" placeholder="Confirm Password" required></p>
-      Studio<input type="radio" name="type" value="">musician <input type="radio" name="type" value="">
+      <p>Email:<input type="email" name="email" placeholder="Email" required></p>
+      <p>Password:<input type="password" name="password" placeholder="Password" required></p>
+      <p>Confirm Password:<input type="password" name="confirm_password" placeholder="Confirm Password" required></p>
+      Studio<input type="radio" name="type" value="studio">
+      Musician <input type="radio" name="type" value="musician">
       <p><input type="submit" name="" value="Join us!"></p>
+
       </form>
+
 
 
       <?php
