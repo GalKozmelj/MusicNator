@@ -13,15 +13,22 @@
 
       <div class="main_box">
       <h1 style="font-size:40px;">Register</h1>
-      <form class="" action="index.html" method="post">
-      <p>Name:<input type="text" name="name" placeholder="Name"></p>
+      <form class="" action="#" method="post">
+      <p>Username:<input type="text" name="username" placeholder="Name"></p>
       <p>Email:<input type="text" name="email" placeholder="Email"></p>
-      <p>Password<input type="text" name="password" placeholder="Password"></p>
-      <p>Confirm Password<input type="text" name="confirm_password" placeholder="Confirm Password"></p>
-
+      <p>Password:<input type="text" name="password" placeholder="Password"></p>
+      <p>Confirm Password:<input type="text" name="confirm_password" placeholder="Confirm Password"></p>
+      <p>Studio<input type="radio" name="studio" value="">musician <input type="radio" name="musician" value=""> </p>
       </form>
 
+      <?php
+      if(isset($_POST['username'])){
+      $username = $_POST['username'];
+      $query_insert = "insert into users(username) values('$username')";
+      }
 
+
+       ?>
 
       <!-- style za main box -->
       <style media="screen">
