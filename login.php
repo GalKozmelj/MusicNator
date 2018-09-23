@@ -5,7 +5,10 @@
     <title>MusicNator</title>
   </head>
   <body>
-    <?php include 'header.php'; ?>
+    <?php
+     include 'header.php';
+     include 'php/database.php';
+    ?>
 
 
       <img draggable="false" style="width:100%;" src="images/wp5.jpg" alt="wp5  ">
@@ -14,11 +17,11 @@
       <div class="main_box">
       <h1 style="font-size:40px;">Login</h1>
       <form class="" action="index.html" method="post">
-      <p>Email:<input type="text" name="" placeholder="Email"></p>
-      <p>Password<input type="text" name="" placeholder="Password"></p>
+      <p>Username:<input type="text" name="username" placeholder="Enter your name" required></p>
+      <p>Password:<input type="password" name="password" placeholder="Enter your password" required></p>
       <p style="color:gray; margin-bottom:0px;">*We will <span style="color:red;">never</span> ask you for your password!</p>
       <p style="color:gray;" >Don't have account? <a href="register.php">Register</a></p>
-      <input type="submit" name="submit_btn" value="Connect!">
+      <input type="submit" name="login_btn" value="Connect!">
       </form>
 
 
@@ -36,7 +39,7 @@
           opacity: 0.7;
           padding: 20px;
         }
-        
+
         .main_box p{
           color: white;
         }
@@ -48,6 +51,42 @@
         }
 
       </style>
+
+
+
+
+
+      <?php
+
+      if (isset($_POST['username'])) {
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+      }
+
+
+      // $sql = "SELECT name, password FROM uporabniki WHERE name=? AND password=? ";
+      //     $query = $dsn->prepare($sql);
+      //     $query->execute(array($db_username,$db_password));
+
+
+      $data = $pdo->query("SELECT * FROM uporabniki")->fetchAll();
+      // and somewhere later:
+      foreach ($data as $row) {
+      $db_username = $row['name'];
+      $db_password = $row['password'];
+      }
+
+      //preveri ce je uporabnik kliknil login button
+      if (isset($_POST['login_btn'])) {
+          //preveri ce je uporabnik vnesel pravo geslo
+          if ($db_password == $password) {
+            //geslo je pravo
+          }
+
+      }
+
+      ?>
+
 
 
 
