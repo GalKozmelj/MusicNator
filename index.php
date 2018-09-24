@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>MusicNator</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon"/>
+
   </head>
   <body>
     <!--HEADER -->
