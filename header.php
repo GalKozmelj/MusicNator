@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>MusicNator</title>
+		<title>MusicHero</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -13,7 +13,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="index.php">MusicNator</a></h1>
+				<h1><a href="index.php">MusicHero</a></h1>
 				<a href="#menu">Menu</a>
 			</header>
 
