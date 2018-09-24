@@ -2,3 +2,9 @@
   width: 100%;
   height: 1000px;
 }
+h3{
+  color: gray;
+}
+.projects{
+  marign: 20px;
+}

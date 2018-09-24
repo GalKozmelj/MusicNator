@@ -66,7 +66,7 @@
         $password = $_POST['password'];
 
         //session veriables
-        $session['username'] = $username;
+        $_SESSION['username'] = $username;
 
       $stmt = $pdo->prepare("SELECT password FROM uporabniki WHERE name=?");
       $stmt->execute([$username]);
@@ -79,7 +79,7 @@
          }
          else {
            ?>
-            <p style="color:red;">*Incorrect password!</p>
+            <p style="color:red;">-Incorrect password!</p>
            <?php
          }
        }

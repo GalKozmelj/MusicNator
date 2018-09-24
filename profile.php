@@ -1,6 +1,4 @@
 
-<!-- HEADER -->
-
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -11,6 +9,12 @@
 		<link rel="icon" href="images/icon.png" type="image/x-icon"/>
     <link rel="stylesheet" href="profile.css" />
 
+		<?php
+		include 'php/database.php';
+		session_start();
+		$username = $_SESSION['username'];
+
+		 ?>
 	</head>
 	<body>
 
@@ -36,7 +40,33 @@
         <!-- CONTENT -->
 
     <div class="content">
+			<div class="profile_picture">
 
+				<!-- dobim ime profilne slike iz baze (default.php) -->
+				<?php
+				$stmt = $pdo->prepare("SELECT profile_picture FROM uporabniki WHERE name=?");
+				$stmt->execute([$username]);
+				$profile_picture = $stmt->fetchColumn();
+				?>
+
+				<div class="box_profile_picture">
+				<p>profile picture:</p>
+				<img draggable="false" style="width:200px;height:200px;" src="images/profile_picture/<?php echo $profile_picture;?>" alt="profile_picture">
+				<button type="button" name="profile_picture_button">Chose new profile picture</button>
+				</div>
+				<div class="box_profile_info">
+				<p>profile info:</p>
+				<textarea name="name" rows="8" cols="80"></textarea>
+				<button type="button" name="update_desc_button">Update profile description</button>
+			</div>
+
+			<div class="projects">
+				<h3>Projects:	</h3>
+				<button type="button" name="button">Add project</button>
+			</div>
+
+
+			</div>
     </div>
 
 

@@ -36,7 +36,10 @@
         <!-- CONTENT -->
 
     <div class="content">
+      <div class="projects">
+        <h3>New Projects that are happening:</h3>
 
+      </div>
     </div>
 
 
