@@ -56,6 +56,7 @@
 				</div>
 				<div class="box_profile_info">
 				<p>profile info:</p>
+				<b>Username:</b> <?php echo $username; ?>
 				<textarea name="name" rows="8" cols="80"></textarea>
 				<button type="button" name="update_desc_button">Update profile description</button>
 			</div>

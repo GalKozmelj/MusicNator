@@ -42,7 +42,6 @@
       $type = $_POST['type'];
 
 
-
       // $query_insert = "insert into users(username) values('$username')";
       if ($password == $password2) {
         $stmt = $pdo->prepare("insert into uporabniki(name, password, email, type) values(?,?,?,?)");
