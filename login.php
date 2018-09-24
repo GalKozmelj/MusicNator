@@ -68,24 +68,11 @@
         //session veriables
         $session['username'] = $username;
 
-      // $sql = "SELECT name, password FROM uporabniki WHERE name=? AND password=? ";
-      //     $query = $dsn->prepare($sql);
-      //     $query->execute(array($db_username,$db_password));
-
-
-      // $data = $pdo->query("SELECT * FROM uporabniki")->fetchAll();
-      // // and somewhere later:
-      // foreach ($data as $row) {
-      // $db_username = $row['name'];
-      // $db_password = $row['password'];
-      // }
       $stmt = $pdo->prepare("SELECT password FROM uporabniki WHERE name=?");
       $stmt->execute([$username]);
       $db_password = $stmt->fetchColumn();
       }
-      // //preveri ce je uporabnik kliknil login button
-      // if (isset($_POST['login_btn'])) {
-      //     //preveri ce je uporabnik vnesel pravo geslo
+
       if(isset($_POST['login_btn'])){
          if ($db_password == sha1($password . $salt)) {
          header("location: wall.php");

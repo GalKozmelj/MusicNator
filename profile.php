@@ -22,7 +22,7 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="profile.php">Profile</a></li>
-          <li><a href="news">News</a></li>
+          <li><a href="wall.php">Wall</a></li>
           <li><a href="logout.php">logout</a></li>
 				</ul>
 			</nav>
