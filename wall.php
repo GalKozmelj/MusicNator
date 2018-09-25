@@ -71,6 +71,7 @@
 
 
 				<?php
+
 					if (isset($_POST['submit_find'])) {
 						$find_text = $_POST['find_text'];
 					}
@@ -90,9 +91,9 @@
 						echo "<b>Project description: </b>";
 						echo $s['opis'];
 						echo "<br>";
-
-
+					 }
 					?>
+
 
       </div>
     </div>
