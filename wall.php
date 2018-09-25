@@ -11,6 +11,13 @@
 		<link rel="icon" href="images/icon.png" type="image/x-icon"/>
     <link rel="stylesheet" href="wall.css" />
 
+		<?php
+		include 'php/database.php';
+		session_start();
+		$username = $_SESSION['username'];
+		 ?>
+
+
 	</head>
 	<body>
 
@@ -36,8 +43,56 @@
         <!-- CONTENT -->
 
     <div class="content">
+
+
       <div class="projects">
-        <h3>New Projects that are happening:</h3>
+        <h3>All Projects:</h3>
+				<?php
+				$stmt = $pdo->query('SELECT * FROM projekti');
+				foreach ($stmt as $row)
+				{
+						echo "- ";
+						echo "<b>Project name: </b>";
+				    echo $row['ime'] . "\n";
+						echo "<b>Project description: </b>";
+						echo $row['opis'] . "\n";
+						echo "<b>Project user: </b>";
+						echo $row['owner'] . "\n";
+						echo "</br>";
+				}
+				?>
+
+				<br>
+				<h3>Find projects:</h3>
+				<form class="search" action="#" method="post">
+					<input style="width:40%; margin-left:30%" type="text" name="find_text" placeholder="find projects">
+					<input style="width:40%" type="submit" name="submit_find">
+				</form>
+
+
+				<?php
+					if (isset($_POST['submit_find'])) {
+						$find_text = $_POST['find_text'];
+					}
+
+					 //selecta iz baze vse uporabnike ali projekte ki imajo v imenu $find_text
+
+					 // Prepare statement
+					 $search = $pdo->prepare("SELECT ime, opis FROM projekti WHERE ime LIKE ?");
+					 // Execute with wildcards
+					 $search->execute(array("%$find_text%"));
+					 // Echo results
+					 foreach($search as $s) {
+
+						echo "-";
+						echo "<b>Project name: </b>";
+						echo $s['ime'] . " ";
+						echo "<b>Project description: </b>";
+						echo $s['opis'];
+						echo "<br>";
+
+
+					?>
 
       </div>
     </div>
