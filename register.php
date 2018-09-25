@@ -13,7 +13,7 @@
       ?>
 
 
-      <img draggable="false" style="width:100%;" src="images/wp.jpg" alt="wp2">
+      <img draggable="false" style="width:100%;" src="images/wp.jpg" alt="wp">
 
 
       <div class="main_box">

@@ -7,7 +7,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/icon.png" type="image/x-icon"/>
-
+		<meta name="description" content="MusicNator, musicnator, musicnator.net, music nator">
+		<meta name="keywords" content="music Nator">
+		<meta name="author" content="Music production">
+		<meta name="google-site-verification" content="9k3R9G0sIRGTNXGHyefjo6VyIxqp0cjM7qND48s6P5I" />
 	</head>
 	<body>
 
